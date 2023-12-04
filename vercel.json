@@ -1,10 +1,5 @@
 {
     "build": {
-        "env": {
-            "DATABASE_URL": "file:./dev.db"
-        },
-        "commands": {
-            "build": "prisma generate && npm run build"
-        }
+        "commands": "prisma generate && npm run build"
     }
 }
