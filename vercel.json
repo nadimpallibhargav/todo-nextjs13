@@ -3,8 +3,8 @@
         "env": {
             "DATABASE_URL": "file:./dev.db"
         },
-        "commands": {
-            "build": "prisma generate && npm run build"
-        }
+        "src": "your_source_directory",
+        "use": "@vercel/node",
+        "command": "prisma generate && npm run build"
     }
 }
