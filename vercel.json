@@ -3,6 +3,8 @@
         "env": {
             "DATABASE_URL": "file:./dev.db"
         },
-        "command": "prisma generate"
+        "commands": {
+            "build": "prisma generate"
+        }
     }
 }
