@@ -1,3 +1,7 @@
 {
-    "build": "prisma generate"
+    "build": {
+        "commands": {
+            "build": "prisma generate && npm run build"
+        }
+    }
 }
